@@ -6,15 +6,7 @@ body {
     color: #343a40;
     overflow-x: hidden;
     width: 100%;
-}
-
-.hero-section {
-    
-}
-
-.hero-content {
-    width: 100%;
-    padding: 0 15px;
+    overflow-x: hidden;
 }
 
 @keyframes fadeIn {
@@ -654,22 +646,18 @@ h2 {
     color: #0d6efd;
 }
 
-body {
-    overflow-x: hidden; /* Menghindari scroll horizontal */
-}
-
 .container-fluid {
-    padding-left: 15px; /* Padding kiri */
-    padding-right: 15px; /* Padding kanan */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .row {
-    margin-right: 0; /* Menghapus margin kanan */
-    margin-left: 0; /* Menghapus margin kiri */
+    margin-right: 0; 
+    margin-left: 0; 
 }
 
 .col-lg-4, .col-lg-6 {
-    padding-left: 15px; /* Padding kiri untuk kolom */
-    padding-right: 15px; /* Padding kanan untuk kolom */
+    padding-left: 15px;
+    padding-right: 15px; 
 }
 

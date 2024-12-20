@@ -30,53 +30,52 @@
   </head>
 
   <body onload="window.location.hash = '';">
-    <!-- Hero Section with Navbar -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#" data-aos="fade-right">
+          <i class="bi bi-building"></i>SLG
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item" data-aos="fade-down" data-aos-delay="100">
+              <a class="nav-link active" href="#home">
+                <i class="bi bi-house-door"></i> Home
+              </a>
+            </li>
+            <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
+              <a class="nav-link" href="#about">
+                <i class="bi bi-info-circle"></i> About
+              </a>
+            </li>
+            <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
+              <a class="nav-link" href="#Galeri">
+                <i class="bi bi-card-image"></i> Galery
+              </a>
+            </li>
+            <li class="nav-item" data-aos="fade-down" data-aos-delay="300">
+              <a class="nav-link" href="#contact">
+                <i class="bi bi-envelope"></i> Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Content -->
     <section
       class="hero-section justify-content-center align-items-center"
       id="home"
     >
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#" data-aos="fade-right">
-            <i class="bi bi-building"></i>SLG
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item" data-aos="fade-down" data-aos-delay="100">
-                <a class="nav-link active" href="#home">
-                  <i class="bi bi-house-door"></i> Home
-                </a>
-              </li>
-              <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
-                <a class="nav-link" href="#about">
-                  <i class="bi bi-info-circle"></i> About
-                </a>
-              </li>
-              <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
-                <a class="nav-link" href="#Galeri">
-                  <i class="bi bi-card-image"></i> Galery
-                </a>
-              </li>
-              <li class="nav-item" data-aos="fade-down" data-aos-delay="300">
-                <a class="nav-link" href="#contact">
-                  <i class="bi bi-envelope"></i> Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Hero Content -->
       <div class="hero-content justify-content-center">
         <div class="container">
           <div class="row min-vh-100 align-items-center">
@@ -114,7 +113,13 @@
     <section id="about" class="about-section py-5">
       <div class="container">
         <div class="title text-center mb-4">
-          <h6 class="text-primary fw-bold mb-3" data-aos="fade-down" data-aos-delay="200">TENTANG KAMI</h6>
+          <h6
+            class="text-primary fw-bold mb-3"
+            data-aos="fade-down"
+            data-aos-delay="200"
+          >
+            TENTANG KAMI
+          </h6>
           <h2 class="display-5 fw-bold">Simpang Lima Gumul Kediri</h2>
         </div>
         <div class="row align-items-center">
@@ -132,14 +137,22 @@
           </div>
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
             <p class="lead mb-4">
-              Simpang Lima Gumul adalah monumen megah yang menjadi kebanggaan Kota Kediri, menggabungkan arsitektur modern dengan nilai sejarah yang kental. 
-              Tempat ini tidak hanya menjadi simbol kebanggaan, tetapi juga destinasi wisata yang menarik bagi pengunjung dari berbagai daerah.
+              Simpang Lima Gumul adalah monumen megah yang menjadi kebanggaan
+              Kota Kediri, menggabungkan arsitektur modern dengan nilai sejarah
+              yang kental. Tempat ini tidak hanya menjadi simbol kebanggaan,
+              tetapi juga destinasi wisata yang menarik bagi pengunjung dari
+              berbagai daerah.
             </p>
             <p class="lead mb-4">
-              Dengan berbagai fasilitas yang tersedia, pengunjung dapat menikmati keindahan arsitektur, taman yang asri, serta area kuliner yang menggugah selera. 
-              Simpang Lima Gumul juga sering menjadi lokasi berbagai acara budaya dan festival, menjadikannya pusat kegiatan masyarakat.
+              Dengan berbagai fasilitas yang tersedia, pengunjung dapat
+              menikmati keindahan arsitektur, taman yang asri, serta area
+              kuliner yang menggugah selera. Simpang Lima Gumul juga sering
+              menjadi lokasi berbagai acara budaya dan festival, menjadikannya
+              pusat kegiatan masyarakat.
             </p>
-            <a href="#fasilitas" class="btn btn-primary mt-3">Jelajahi Fasilitas Kami</a>
+            <a href="#fasilitas" class="btn btn-primary mt-3"
+              >Jelajahi Fasilitas Kami</a
+            >
           </div>
         </div>
       </div>
@@ -160,18 +173,19 @@
             <div
               class="facility-card"
               data-aos="fade-left"
-              data-aos-delay="100"
+              data-aos-delay="200"
             >
               <div class="card h-100">
                 <img
                   src="image/Monumen_Simpang_Lima_Gumul.jpg"
                   class="card-img-top"
-                  alt="Monumen SLG"
+                  alt="Taman"
                 />
                 <div class="card-body">
-                  <h5 class="card-title pt-3 text-center" data-aos="fade-up">
-                    Klik untuk detail
-                  </h5>
+                  <h5 class="card-title">Masjid</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptatibus.
+                  </p>
                 </div>
               </div>
             </div>
@@ -286,7 +300,10 @@
               </div>
             </div>
           </div>
-          <button class="card-nav next-card position-left" onclick="shiftCardsManually(1)">
+          <button
+            class="card-nav next-card position-left"
+            onclick="shiftCardsManually(1)"
+          >
             ❯
           </button>
         </div>
@@ -496,10 +513,26 @@
               berbagai aktivitas menarik untuk seluruh keluarga.
             </p>
             <div class="social-links">
-              <a href="https://facebook.com/disparbudkedirikab" class="text-white me-3"><i class="bi bi-facebook"></i></a>
-              <a href="https://instagram.com/disparbudkedirikab" class="text-white me-3"><i class="bi bi-instagram"></i></a>
-              <a href="https://twitter.com/disparbudkedirikab" class="text-white me-3"><i class="bi bi-twitter"></i></a>
-              <a href="https://youtube.com/@disparbudkedirikab" class="text-white"><i class="bi bi-youtube"></i></a>
+              <a
+                href="https://facebook.com/disparbudkedirikab"
+                class="text-white me-3"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://instagram.com/disparbudkedirikab"
+                class="text-white me-3"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a
+                href="https://twitter.com/disparbudkedirikab"
+                class="text-white me-3"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a
+                href="https://youtube.com/@disparbudkedirikab"
+                class="text-white"
+                ><i class="bi bi-youtube"></i
+              ></a>
             </div>
           </div>
 
@@ -507,11 +540,31 @@
           <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
             <h5 class="fw-bold mb-3">Quick Links</h5>
             <ul class="list-unstyled footer-links">
-              <li><a href="#home" class="text-decoration-none text-white"><i class="bi bi-chevron-right"></i> Home</a></li>
-              <li><a href="#about" class="text-decoration-none text-white"><i class="bi bi-chevron-right"></i> About</a></li>
-              <li><a href="#fasilitas" class="text-decoration-none text-white"><i class="bi bi-chevron-right"></i> Fasilitas</a></li>
-              <li><a href="#fasilitas" class="text-decoration-none text-white"><i class="bi bi-chevron-right"></i>  Galery</a></li>
-              <li><a href="#contact" class="text-decoration-none text-white"><i class="bi bi-chevron-right"></i> Contact</a></li>
+              <li>
+                <a href="#home" class="text-decoration-none text-white"
+                  ><i class="bi bi-chevron-right"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="text-decoration-none text-white"
+                  ><i class="bi bi-chevron-right"></i> About</a
+                >
+              </li>
+              <li>
+                <a href="#fasilitas" class="text-decoration-none text-white"
+                  ><i class="bi bi-chevron-right"></i> Fasilitas</a
+                >
+              </li>
+              <li>
+                <a href="#fasilitas" class="text-decoration-none text-white"
+                  ><i class="bi bi-chevron-right"></i> Galery</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="text-decoration-none text-white"
+                  ><i class="bi bi-chevron-right"></i> Contact</a
+                >
+              </li>
             </ul>
           </div>
 
@@ -519,18 +572,31 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <h5 class="fw-bold mb-3">Informasi Kontak</h5>
             <div class="contact-info">
-              <p class="text-white mb-2"><i class="bi bi-geo-alt me-2"></i> Jl. Erlangga No. 1 Kediri</p>
-              <p class="text-white mb-2"><i class="bi bi-telephone me-2"></i> 	(0354) 691776</p>
-              <p class="text-white mb-2"><i class="bi bi-envelope me-2"></i> disparbud@kedirikab.go.id</p>
-              <p class="text-white mb-2"><i class="bi bi-clock me-2"></i> Senin - Jumat: 08.00 - 16.00 WIB</p>
-              <p class="text-white"><i class="bi bi-globe me-2"></i> kedirikab.go.id/disparbud</p>
+              <p class="text-white mb-2">
+                <i class="bi bi-geo-alt me-2"></i> Jl. Erlangga No. 1 Kediri
+              </p>
+              <p class="text-white mb-2">
+                <i class="bi bi-telephone me-2"></i> (0354) 691776
+              </p>
+              <p class="text-white mb-2">
+                <i class="bi bi-envelope me-2"></i> disparbud@kedirikab.go.id
+              </p>
+              <p class="text-white mb-2">
+                <i class="bi bi-clock me-2"></i> Senin - Jumat: 08.00 - 16.00
+                WIB
+              </p>
+              <p class="text-white">
+                <i class="bi bi-globe me-2"></i> kedirikab.go.id/disparbud
+              </p>
             </div>
           </div>
         </div>
 
         <!-- Copyright -->
         <div class="text-center border-top border-secondary mt-4 pt-4">
-          <p class="mb-0 text-white">© 2024 Simpang Lima Gumul Kediri. All rights reserved.</p>
+          <p class="mb-0 text-white">
+            © 2024 Simpang Lima Gumul Kediri. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
